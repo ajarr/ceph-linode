@@ -1,5 +1,5 @@
 {
-  "region": "us-west",
+  "region": "us-east",
   "image": "linode/centos-stream8",
   "type": 8192,
   "nodes": [
