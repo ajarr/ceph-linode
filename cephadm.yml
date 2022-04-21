@@ -100,7 +100,7 @@
       line: "{{ ceph_pub.stdout }}"
 
   - name: get hostname
-    shell: hostname --fqdn
+    shell: hostname
     register: myhostname
 
   - name: add hostname to cephadm
