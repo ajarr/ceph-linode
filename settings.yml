@@ -16,7 +16,7 @@
   gather_facts: no
   tasks:
   - set_fact:
-      RELEASE: pacific
-      CEPHADM_REPO: --release pacific
-#     RELEASE: master
-#     CEPHADM_REPO: --dev master
+#      RELEASE: pacific
+#      CEPHADM_REPO: --release pacific
+      RELEASE: master
+      CEPHADM_REPO: --dev master
