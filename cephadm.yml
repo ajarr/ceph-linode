@@ -133,10 +133,6 @@
             - /dev/sdc
         EOF
 
-  - name: use labeled mdss
-    shell: ceph orch apply mds all --placement=label:mdss
-    when: groups['mdss'] | default([]) | length > 0
-
 - hosts: all
   become: yes
   tasks:
